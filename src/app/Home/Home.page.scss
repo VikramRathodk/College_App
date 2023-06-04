@@ -1,0 +1,70 @@
+*{
+    font-family: Abel;
+}
+
+.maintitle{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: auto;
+    
+}
+
+.titleBar{
+    background: linear-gradient(45deg, rgb(184, 91, 223), blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+    padding: auto 0;
+    margin-bottom: 10px;
+}
+
+.titleBar .maintitle {
+    margin: 0;
+    text-align: center;
+}
+
+.mcaTitle{
+    padding: 10px;
+    font-size: 2em;  
+    text-align: center; 
+    font-weight: 800;
+    background: linear-gradient(45deg, rgb(34, 227, 208), rgb(41, 227, 47));
+}
+
+p, b{
+
+    text-align: center;
+}
+
+p.about{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: Rosario;
+    font-weight: 600;
+}
+
+p.aboutDes{
+    font-size: 20px;
+    padding: 1em;
+    margin-top: -2em;
+    text-align: justify;
+    color: rgb(47, 45, 45);
+    font-weight: 600;
+}
+
+
+ion-menu::part(backdrop) {
+    background-color: rgba(222, 20, 13, 0.719);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px rgba(224, 51, 31, 0.18);
+  }

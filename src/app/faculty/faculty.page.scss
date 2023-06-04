@@ -1,0 +1,74 @@
+*{
+    font-family: Abel;
+}
+
+.back{
+    
+    margin-left: 0.3em;
+    margin-top: 10px;
+    
+}
+
+.backButton{
+    height: 3em;
+    width: 4em;
+}
+
+.header{
+    margin: 1em;
+    margin-top: -35px;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.facImg{
+    border-radius: 10px;
+    padding-top: 2px;
+    margin: 1.5em;
+}
+
+.facQuote,.intro{
+    padding: 1em;
+    margin-top: -2em;
+}
+
+.facQuote{
+    font-size: 2em;
+    color: rgb(232, 16, 142);
+    font-style: italic;
+    font-family: Satisfy;
+}
+
+.intro{
+    font-size: 2em;
+    text-align: justify;
+}
+
+.facultyDesc{
+    margin-top: -2em;
+}
+
+.facultyName{
+    font-weight: 700;
+}
+
+.facultyDesg{
+    font-family: Satisfy;
+}
+
+.content > div{
+    // padding: 2em;
+    margin: 1em;
+}
+
+.facultylIn{
+    float: right;
+    margin: 0.5em;
+}
+
+.facultyInt{
+    font-size: 1.5em;
+    font-family: Satisfy;
+}

@@ -1,0 +1,65 @@
+*{
+    font-family: Abel;
+}
+
+.back{
+    
+    margin-left: 0.3em;
+    margin-top: 10px;
+    
+}
+
+.backButton{
+    height: 3em;
+    width: 4em;
+}
+
+.header{
+    margin: 1em;
+    margin-top: -35px;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.year-card {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.year-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #303F9F;
+    text-align: center;
+    margin: 1rem;
+}
+
+.year-subtitle {
+    font-size: 1.2rem;
+    color: #616161;
+    text-align: center;
+    margin: 1rem;
+}
+
+.year-image {
+    height: 23rem;
+    width: 60rem;
+    border-radius: 10px;
+    margin-top: 3px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .year-image {
+        height: 15rem;
+        width: 30rem;
+    }
+}

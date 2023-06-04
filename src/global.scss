@@ -24,3 +24,23 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: "Abel";
+    src: url('./assets/fonts/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rosario";
+    src: url('./assets/fonts/Rosario-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rosario-Bold";
+    src: url('./assets/fonts/Rosario-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rosario-Medium";
+    src: url('./assets/fonts/Rosario-Medium.ttf');
+}

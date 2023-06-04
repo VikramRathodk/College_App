@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true">
+
+  <div class="back">
+    <ion-button class="backButton" routerLink="/" routerDirection="root">
+      <ion-icon name="caret-back-circle-outline" ></ion-icon>
+    </ion-button>
+  </div>
+  
+  <div class="header">
+    <p>Vision-Mission</p>
+  </div>
+
+  
+  <div class="ion">
+    <ion-card>
+      <ion-item color="light">
+        <ion-card-header style="font-family: Abel; font-size: 2em; font-weight: 600;">OUR VISION</ion-card-header>
+      </ion-item>
+      <img src="./assets/img/Vision.png" alt="vision">
+      <ion-card-content style="text-align: justify;">
+        <p class="vText">{{visionTxt}}</p>
+        <p class="vMain">
+          <b>{{visionMain}}</b>
+        </p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  
+  <div class="ion">
+    <ion-card>
+      <ion-item color="light">
+        <ion-card-header style="font-family: Abel; font-size: 2em; font-weight: 600;">OUR MISSION</ion-card-header>
+      </ion-item>
+      <img src="./assets/img/Mission.jpg" alt="mission">
+      <ion-card-content>
+        <ion-list lines="inset" *ngFor="let item of missionList; let i = index">
+          <ion-item class="mission">
+            <p [ngStyle]="{'color' : i%2==0 ? 'grey' : 'oddColor'}">
+              {{item}}
+            </p>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  
+</ion-content>

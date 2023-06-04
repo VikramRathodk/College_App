@@ -1,0 +1,104 @@
+* {
+  font-family: Abel;
+}
+
+.back {
+
+  margin-left: 0.3em;
+  margin-top: 10px;
+}
+
+.backButton {
+  height: 3em;
+  width: 4em;
+}
+
+.header {
+  margin: 1em;
+  margin-top: -35px;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hodName {
+  font-size: 3em;
+  font-weight: bold;
+  color: var(--dark-color);
+  margin: 5px 0;
+}
+
+.hodTitle {
+  font-style: italic;
+  margin-top: -37px;
+  font-size: 1.5em;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.ccontent {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-content {
+  background-color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
+  margin: 2em;
+
+}
+
+.quotes ion-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.quotes p {
+  font-style: italic;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card {
+  margin: 20px;
+  width: calc(100% - 40px);
+}
